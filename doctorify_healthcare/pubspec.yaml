@@ -1,0 +1,73 @@
+name: doctorify_healthcare
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.2.1
+  supabase_flutter: ^1.9.1
+  material_design_icons_flutter: ^6.0.7096
+  shared_preferences: ^2.1.1
+  responsive_grid_list: ^1.3.1
+  flutter_spinkit: ^5.1.0
+  percent_indicator: ^4.0.1
+  http: ^0.13.5
+  url_launcher: ^6.1.10
+  overlay_loading_progress: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets\images\about.png
+    - assets\images\disease.png
+    - assets\images\symptoms.png
+    - assets\images\disclaimer.png
+    - assets\images\analyze.png
+    - assets\images\prognosisinput.png
+    - assets\images\prognosisoutput.png
+    - assets\vectors\about_vec.png
+    - assets\vectors\resultpagetop.png
+    - assets\vectors\disclaimer_vec.png
+    - assets\vectors\diseases_vec.png
+    - assets\vectors\home_vec.png
+    - assets\vectors\home_vec_desktop.png
+    - assets\vectors\prognosisin_vec.png
+    - assets\vectors\result_vec.png
+    - assets\vectors\symptoms_vec.png
+    - assets\vectors\hometop_vec.png
+    - assets\images\slider4_img.png
+    - assets\images\slider3_img.png
+    - assets\images\slider2_img.png
+    - assets\images\slider1_img.png
+    - assets\vectors\logo.png
+    - assets\config\config.json
+    - assets\animations\loading.gif
+    - assets\vectors\Logo_White.png
+  fonts:
+    - family: Montserrat-ExtraLight
+      fonts:
+        - asset: assets/fonts/Montserrat-ExtraLight.ttf
+    - family: Montserrat-Light
+      fonts:
+        - asset: assets/fonts/Montserrat-Light.ttf
+    - family: Montserrat-Medium
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+    - family: Montserrat-Regular
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+    - family: Montserrat-Thin
+      fonts:
+        - asset: assets/fonts/Montserrat-Thin.ttf
