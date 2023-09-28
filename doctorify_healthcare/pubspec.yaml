@@ -20,6 +20,7 @@ dependencies:
   http: ^0.13.5
   url_launcher: ^6.1.10
   overlay_loading_progress: ^1.0.0
+  flutter_dotenv: ^5.1.0
 
 dev_dependencies:
   flutter_test:
@@ -55,6 +56,7 @@ flutter:
     - assets\config\config.json
     - assets\animations\loading.gif
     - assets\vectors\Logo_White.png
+    - .env
   fonts:
     - family: Montserrat-ExtraLight
       fonts:
